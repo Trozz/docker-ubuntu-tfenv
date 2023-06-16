@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 RUN apt-get update \
   && apt-get install -y git make curl unzip \
   && git clone https://github.com/tfutils/tfenv.git ~/.tfenv \
